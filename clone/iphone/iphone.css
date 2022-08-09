@@ -1,0 +1,359 @@
+/***** RESET *****/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    /*font-size: 100%;
+	vertical-align: baseline;*/
+
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+textarea {
+    overflow: auto;
+}
+
+/***** RESET *****/
+
+.hepsi {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.menu {
+    width: 1000px;
+    height: 46px;
+    background: rgb(51, 48, 48);
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li#logo a {
+    display: block;
+    width: 20px;
+    height: 23px;
+    padding: 11px 40px;
+}
+
+.menu ul li a:hover {
+    background: rgb(29, 25, 25);
+}
+
+.menu ul li#logo2 a {
+    display: block;
+    width: 20px;
+    height: 39px;
+    padding: 3px 40px;
+}
+
+.menu ul li#logo3 a {
+    display: block;
+    width: 50px;
+    height: 39px;
+    padding: 3px 20px;
+}
+
+.menu ul li#logo4 a {
+    display: block;
+    width: 50px;
+    height: 39px;
+    padding: 3px 15px;
+}
+
+.menu ul li#logo5 a {
+    display: block;
+    width: 41px;
+    height: 39px;
+    padding: 3px 42px;
+}
+
+.menu ul li#logo6 a {
+    display: block;
+    width: 41px;
+    height: 15px;
+    padding: 15px 42px;
+}
+
+.orta1 {
+    width: 250px;
+    height: 85px;
+    margin: 40px auto 0 auto;
+    background: url(images/ip6slogo.png) no-repeat;
+}
+
+.orta2 {
+    width: 863px;
+    height: 79px;
+    margin: 0 auto;
+    background: url(images/6sbanner.png) center bottom no-repeat;
+    padding: 327px 0 0 20px
+}
+
+.ic1 {
+    width: 66px;
+    height: 55px;
+    float: left;
+    margin: 14px 0 0 0
+}
+
+.ic2 {
+    width: 36px;
+    height: 52px;
+    float: left;
+    margin: 17px 0 0 60px
+}
+
+.ic3 {
+    width: 42px;
+    height: 51px;
+    float: left;
+    margin: 18px 0 0 60px
+}
+
+.ic4 {
+    width: 71px;
+    height: 69px;
+    float: left;
+    margin: 0 0 0 300px
+}
+
+.ic5 {
+    width: 67px;
+    height: 69px;
+    float: left;
+    margin: 0 0 0 40px
+}
+
+.ic6 {
+    width: 67px;
+    height: 69px;
+    float: left;
+    margin: 0 0 0 40px
+}
+
+.orta4 {
+    width: 743px;
+    height: 200px;
+    margin: 0 auto;
+    font: bold 15px tahoma;
+    color: rgb(80, 76, 76);
+}
+
+.orta4 span {
+    font: bold 19px helvetica;
+    color: rgb(27, 22, 22)
+}
+
+.orta5 {
+    width: 880px;
+    height: 410px;
+    margin: 0 auto;
+    background: #333 url(images/3dtouch.jpg) right no-repeat;
+    padding: 70px 0 0 120px;
+    color: #fff;
+    font: 15px tahoma;
+}
+
+.orta5 span {
+    font: bold 23px tahoma;
+}
+
+.orta6 {
+    width: 840px;
+    height: 45px;
+    margin: 40px auto 0 auto;
+}
+
+.orta6 li {
+    float: left;
+    display: block;
+    width: 210px;
+    height: 35px;
+    text-align: center;
+    padding: 10px 0 0 0;
+    font: 500 22px tahoma;
+    color: rgb(100, 98, 98)
+}
+
+.orta7 {
+    width: 840px;
+    height: 229px;
+    margin: 40px auto
+}
+
+.orta7 ul li {
+    float: left;
+    display: block;
+    width: 176px;
+    height: 229px;
+    margin: 0 17px 0 17px
+}
+
+.orta8 {
+    width: 840px;
+    height: 229px;
+    margin: 0 auto;
+    background: url(images/ayraclar.png) no-repeat
+}
+
+.orta8 ul li {
+    display: block;
+    float: left;
+    height: 229px;
+    text-align: center;
+    font: 500 20px helvetica;
+    line-height: 60px;
+    color: #666
+}
+
+.orta8 ul li#t1 {
+    width: 190px
+}
+
+.orta8 ul li#t2 {
+    width: 230px
+}
+
+.orta8 ul li input {
+    width: 90px;
+    height: 24px;
+    background: url(images/satinal.png) no-repeat;
+    border: none;
+    cursor: pointer
+}
+
+.alt ul li {
+    float: left;
+    display: block;
+    height: 20px;
+    font: 13px helvetica;
+    color: #666
+}
+
+.alt ul li#a1 {
+    width: 250px;
+    letter-spacing: -1px
+}
+
+.alt ul li#a2 {
+    width: 170px;
+    text-align: center
+}
+
+.alt ul li#a3 {
+    width: 150px;
+    text-align: center
+}
+
+.alt ul li#a4 {
+    width: 170px;
+    text-align: center
+}
+
+.alt ul li#a5 {
+    width: 100px;
+    text-align: center
+}
+
+.alt ul li a {
+    font: 13px helvetica;
+    color: #666;
+    text-decoration: none
+}
+
+.alt ul li a:hover {
+    text-decoration: underline
+}

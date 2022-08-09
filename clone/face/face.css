@@ -1,0 +1,175 @@
+/***** RESET *****/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    /*font-size: 100%;
+	vertical-align: baseline;*/
+
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+textarea {
+    overflow: auto;
+}
+
+/***** RESET *****/
+
+body {
+    background-color: rgb(238, 235, 235);
+}
+
+.hersey {
+    width: 1000px;
+    height: 500px;
+    margin: 30px auto 0 auto;
+
+}
+
+.yazi {
+    width: 500px;
+    height: 375px;
+    font: bold 30px thoma;
+    margin: 200px 0 100px 0;
+    float: left;
+    padding: 0px 0 00 10;
+}
+
+.yazi span {
+    width: 200px;
+    font: bold 53px tahoma;
+    color: blue;
+}
+
+.giris {
+    width: 395px;
+    height: 330px;
+    font: 30px thoma;
+    line-height: 15px;
+    float: left;
+    background-color: #fff;
+    margin: 130px 0 0 75px;
+    border-radius: 5px;
+    padding: 15px 0 0 5px;
+    box-shadow: 0px 0px 3px rgb(219, 202, 202);
+}
+
+.giris ul li input {
+    line-height: 30px;
+    font: 15px tahoma;
+    width: 365px;
+    height: 42px;
+}
+
+.giris span input {
+    background: url(images/giris.png);
+    height: 35px;
+    border-radius: 3px;
+}
+
+.a1 {
+    font: 15px tahoma;
+    width: auto;
+    height: auto;
+    margin: 0 100px;
+}
+
+.bilgi {
+    width: auto;
+    height: auto;
+    margin: 0 15px;
+}
+
+.olustur {
+    margin: 0 90px
+}

@@ -1,0 +1,243 @@
+/***** RESET *****/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    /*font-size: 100%;
+	vertical-align: baseline;*/
+
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+textarea {
+    overflow: auto;
+}
+
+/***** RESET *****/
+
+body {
+    background-color: #000;
+}
+
+.hersey {
+    margin: 0 auto;
+    width: 750px;
+    height: 1000px;
+    background: #fff;
+}
+
+.basust {
+    width: 750px;
+    height: 25px;
+    float: left;
+    font: 13px tahoma;
+    float: left;
+    color: black;
+    border-bottom: solid 1px rgb(114, 114, 101);
+}
+
+.basust img {
+    float: left;
+}
+
+.basust ul {
+    list-style: none;
+}
+
+.basust ul li {
+    position: relative;
+    float: left;
+}
+
+.basust ul li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.basust ul li a:hover {
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(170, 170, 170);
+}
+
+.basust ul li ul {
+    display: none;
+    position: absolute;
+    left: 25px;
+    margin: 0 0 0 20px;
+}
+
+.basust ul li:hover ul {
+    display: block;
+    margin: -25px 0 0 0;
+    background: #fff;
+    border: 1px;
+}
+
+.basust span {
+    float: left;
+    margin: -25px 0 0 650px;
+}
+
+.basust span img {
+    margin: 0 0 0 40px;
+}
+
+.resim {
+    width: 300px;
+    height: 300px;
+    background: url(images/qr.png);
+    margin: 50px 225px 0 225px;
+    float: left;
+}
+
+.yazi {
+    width: 360px;
+    height: 300px;
+    margin: 0px 200px 0 200px;
+    float: left;
+}
+
+.yazi2 {
+    width: 360px;
+    height: 30px;
+    line-height: 30px;
+    font: bold 23px tahoma;
+    float: left;
+    margin: 30px 0 0 0;
+}
+
+.yazi3 {
+    margin: 100px 0 0 30px;
+    width: 360px;
+    height: 75px;
+
+    font: 17px tahoma;
+}
+
+.yazi3 li {
+    line-height: 25px;
+}
+
+.yazi3 a {
+    font: bold 14px tahoma;
+    color: #000;
+    text-decoration: none;
+}
+
+.yazi3 a:hover {
+    text-decoration: none;
+}
+
+.linkler {
+    width: 700px;
+    height: 100px;
+    float: left;
+    margin: -100px 0 0 0;
+}
+
+.link1:hover {
+    background-color: antiquewhite;
+}
+
+.link1 {
+    font: 30px tahoma;
+    width: 350px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 25px 0 25px;
+    padding: 0 175px 0 175px;
+}
+
+.link1 a {
+    width: 700px;
+}

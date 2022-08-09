@@ -1,0 +1,206 @@
+/***** RESET *****/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    /*font-size: 100%;
+	vertical-align: baseline;*/
+
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+textarea {
+    overflow: auto;
+}
+
+/***** RESET *****/
+
+.hersey {
+    width: 1000px;
+    height: 1000px;
+    margin: 30px auto 0 auto;
+}
+
+.foto {
+    float: left;
+    width: 500px;
+    height: 250px;
+}
+
+.foto img {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.giris {
+    float: left;
+    width: 450px;
+    height: 500px;
+    margin: 0 0 0 20px;
+    border: solid 1px;
+}
+
+.yazi {
+    width: auto;
+    margin: 20px 100px;
+    float: left;
+}
+
+.yazi img {
+    width: 250px;
+}
+
+.login input {
+    width: 250px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin: 10px 0 0 100px;
+}
+
+.login span input {
+    width: 250px;
+    height: 30;
+    line-height: 30px;
+    background: url(images/login.png);
+}
+
+.yada {
+    float: left;
+    margin: 10px;
+}
+
+.link {
+    width: 300px;
+    height: 30px;
+    color: black;
+    line-height: 30px;
+    font: 20px bolder;
+    margin: 0 130px;
+    float: left;
+}
+
+.link span {
+    font: 12px tahoma;
+    line-height: 30px;
+    margin: 0 auto;
+    float: left;
+}
+
+.girisalt {
+    float: left;
+    width: 450px;
+    height: 100px;
+    margin: 10px 0 0 518px;
+}
+
+.kaydol {
+    margin: 0 125px;
+    font: bold 15px tahoma;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+.indir1 li {
+    float: left;
+    margin: 20px;
+}
+
+.indir1 {
+    margin: -70px 520px 0 520px;
+    border: solid 1px;
+    width: 450px;
+    height: 100px;
+    float: left;
+}
